@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SetupMenu : MonoBehaviour
 {
+	/// <summary>
+	/// Load up the main menu scene (MainMenu)
+	/// </summary>
 	public void ReturnToMain()
 	{
 		SceneManager.LoadScene("MainMenu");
